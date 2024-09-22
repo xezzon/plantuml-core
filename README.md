@@ -3,7 +3,7 @@ Up to now, you need either a local installation of PlantUML or a server (remote 
 
 Thanks for [CheerpJ](https://docs.leaningtech.com/cheerpj/), we have published a pure Javascript implementation of PlantUML.
 
-This implementation runs within [a simple browser](https://plantuml.github.io/plantuml-core/raw.html).
+This implementation runs within [a simple browser](https://xezzon.github.io/plantuml-core/raw.html).
 
 The goal of this core project is to provide a very basic library, so that **other libraries could be built from it**:
 
@@ -35,9 +35,9 @@ You can get both files `plantuml-core.jar` and `plantuml-core.jar.js` [from Gith
 
 All those pages are intentionally as simple as possible, so that people could quickly understand how they work and develop their own libraries:
 
-  * [Using a raw canvas](https://plantuml.github.io/plantuml-core/raw.html), the fastest solution (same [in dark mode](https://plantuml.github.io/plantuml-core/raw-dark.html))
-  * [Generating SVG](https://plantuml.github.io/plantuml-core/svg.html) (same in [dark mode](https://plantuml.github.io/plantuml-core/svg-dark.html))
-  * [Generating PNG](https://plantuml.github.io/plantuml-core/png.html) (same in [dark mode](https://plantuml.github.io/plantuml-core/png-dark.html))
+  * [Using a raw canvas](https://xezzon.github.io/plantuml-core/raw.html), the fastest solution (same [in dark mode](https://xezzon.github.io/plantuml-core/raw-dark.html))
+  * [Generating SVG](https://xezzon.github.io/plantuml-core/svg.html) (same in [dark mode](https://xezzon.github.io/plantuml-core/svg-dark.html))
+  * [Generating PNG](https://xezzon.github.io/plantuml-core/png.html) (same in [dark mode](https://xezzon.github.io/plantuml-core/png-dark.html))
 
 
 ## Javascript API
@@ -68,7 +68,7 @@ where:
   * `"light"`: could be either `dark` or `light` depending of the theme you want to use.
   * `text`: String that contains the diagram source text.
 
-[Working demo](https://plantuml.github.io/plantuml-core/svg.html)
+[Working demo](https://xezzon.github.io/plantuml-core/svg.html)
 
 ### PNG generation
 Note that PNG generation is slower, because PNG compression takes time.
@@ -96,7 +96,7 @@ where:
   * `"light"`: could be either `dark` or `light` depending of the theme you want to use.
   * `text`: String that contains the diagram source text.
 
-[Working demo](https://plantuml.github.io/plantuml-core/png.html)
+[Working demo](https://xezzon.github.io/plantuml-core/png.html)
 
 
 ### Complete list of available functions
